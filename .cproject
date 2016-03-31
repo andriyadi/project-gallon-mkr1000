@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="it.baeyens.arduino.core.toolChain.release.84199184">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="it.baeyens.arduino.core.toolChain.release.84199184" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="it.baeyens.arduino.core.toolChain.release.84199184" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="it.baeyens.arduino.core.toolChain.release.84199184.347085928" name="/" resourcePath="">
+						<toolChain id="it.baeyens.arduino.core.toolChain.release.729274626" name="Arduino Toolchain" superClass="it.baeyens.arduino.core.toolChain.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="it.baeyens.arduino.targetplatform.1839173874" name="Arduino Target" osList="all" superClass="it.baeyens.arduino.targetplatform"/>
+							<builder buildPath="${workspace_loc:/SmartGallon_MKR1000}/Release" id="it.baeyens.arduino.sketch.builder.764785538" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Arduino sketch builder" superClass="it.baeyens.arduino.sketch.builder"/>
+							<tool id="it.baeyens.arduino.tool.sketch.compiler.cpp.1871649921" name="Arduino C++ Compiler" superClass="it.baeyens.arduino.tool.sketch.compiler.cpp">
+								<option id="it.baeyens.arduino.compiler.cpp.sketch.option.incpath.734445228" name="Include Paths (-I)" superClass="it.baeyens.arduino.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/WiFi101}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/WiFi101/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/SPI}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/PubSubClient}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/PubSubClient/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/RTCZero}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/RTCZero/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/ArduinoJson}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/ArduinoJson/src}&quot;"/>
+								</option>
+								<inputType id="it.baeyens.arduino.compiler.cpp.sketch.input.1103749587" name="CPP source files" superClass="it.baeyens.arduino.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="it.baeyens.arduino.tool.compiler.c.1361876436" name="Arduino C Compiler" superClass="it.baeyens.arduino.tool.compiler.c">
+								<option id="it.baeyens.arduino.compiler.c.sketch.option.incpath.2067794230" name="Include Paths (-I)" superClass="it.baeyens.arduino.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/WiFi101}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/WiFi101/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/SPI}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/PubSubClient}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/PubSubClient/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/RTCZero}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/RTCZero/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/ArduinoJson}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SmartGallon_MKR1000/libraries/ArduinoJson/src}&quot;"/>
+								</option>
+								<inputType id="it.baeyens.arduino.compiler.c.sketch.input.1718912264" name="C Source Files" superClass="it.baeyens.arduino.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="it.baeyens.arduino.tool.sketch.compiler.s.1271190384" name="Arduino Assembler" superClass="it.baeyens.arduino.tool.sketch.compiler.s"/>
+							<tool id="it.baeyens.arduino.tool.ar.612999631" name="Arduino archiver" superClass="it.baeyens.arduino.tool.ar"/>
+							<tool id="it.baeyens.arduino.tool.combine.652094934" name="Arduino combiner" superClass="it.baeyens.arduino.tool.combine"/>
+							<tool id="it.baeyens.arduino.tool.objcopy.eep.454387341" name="Arduino tool Create eeprom" superClass="it.baeyens.arduino.tool.objcopy.eep"/>
+							<tool id="it.baeyens.arduino.tool.objcopy.flash.1879363311" name="Arduino tool Create hex" superClass="it.baeyens.arduino.tool.objcopy.flash"/>
+							<tool id="it.baeyens.arduino.tool.size.1904167367" name="Arduino tool Print Size" superClass="it.baeyens.arduino.tool.size"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="libraries/**/?xamples/**|libraries/**/?xtras/**|libraries/**/test/**|libraries/**/third-party/**|libraries**/._*" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="SmartGallon_MKR1000.null.68971588" name="SmartGallon_MKR1000"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>
